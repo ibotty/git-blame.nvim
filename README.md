@@ -40,6 +40,15 @@ Available options: `<author>`, `<date>`, `<summary>`
 let g:gitblame_message_template = '<summary> • <date> • <author>'
 ```
 
+#### Date format
+The Date format to use for blame messages.  Accepts the usual `%`-encodes like `date(1)`.
+
+Default: `'%c'`
+
+```vim
+let g:gitblame_date_format = '%c'
+```
+
 # TODO
 
 * Customizable info message format
